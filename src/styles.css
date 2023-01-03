@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-  background-color: beige;
+  background-color: #dcd7c9;
   font-family: "Montserrat", sans-serif;
-  color: black;
+  color: #2c3639;
 }
 
 footer {
@@ -20,8 +20,15 @@ footer {
 .contact:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: #a27b5c;
 }
 
 .contact:visited {
   color: black;
+}
+
+@media (min-width: 800px) {
+  img:hover {
+    transform: scale(1.5);
+  }
 }
